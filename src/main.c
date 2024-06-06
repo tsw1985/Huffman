@@ -31,22 +31,6 @@ int main(int argc, char *argv[])
     printf("Árbol de Huffman:\n");
     printTree(root);
 
-
-    //TODO:
-    /*
-    
-        Faltaria añadir el metodo de recorrer el arbol , buscar un elemento
-        e ir guardando cuando va a la derecha o a la izquierda  y guardar esos valores
-        binarios.
-
-        Cosas a estudiar antes : 
-            - Listas directamente enlazadas.
-            - Hacer metodo para saber cuando se va a izquierda o derecha hasta encontrar el elemento
-
-    
-    */
-
-
     // Liberar memoria
     free(root);
     free(pq);
